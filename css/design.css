@@ -1,0 +1,45 @@
+.main-title{
+text-align: right;
+padding-right: 15px;
+font-family: Cairo;
+font-weight: 400;
+
+}
+.sec-title{
+  text-align: right;
+  padding-right: 30px;
+  font-family: Cairo;
+  opacity: 0.6;
+  /* font-weight: 200; */
+
+}
+.text{
+    padding: 30px;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 1.3rem;
+
+}
+.seperate{
+  width: 80%;
+  height: 4px;
+  background-color: #79c79c;
+  opacity: 0.4;
+  /* margin: 5px auto; */
+  margin-right: 30px;
+
+  border-radius: 3px 0 0 3px;
+}
+
+.list{
+list-style:initial;
+margin-right: 20px;
+opacity: 0.8;
+
+}
+
+.list li {
+  font-family: Cairo;
+  font-size: 1.2rem;
+  padding-right: 15px;
+}
