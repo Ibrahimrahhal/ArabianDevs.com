@@ -19,6 +19,8 @@
   direction: ltr;
   overflow: hidden;
   padding: 15px 0 ;
+  border-radius: 5px;
+
 }
 .syntaxhighlighter .line.alt1 {
   background-color: #1b2426 !important;
