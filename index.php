@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>design test</title>
     <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="Parials/header.css">
+
 <link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal" rel="stylesheet">
   </head>
   <body>
@@ -20,7 +22,7 @@
 <link href="css/shCore.css" rel="stylesheet" type="text/css" />
 <link href="css/shThemeRDark.css" rel="stylesheet" type="text/css" />
 
-
+<?php require "./Parials/header.php"; ?>
 <h1 class="main-title">
   هذا هوا العنوان الرئيسي
 </h1>
@@ -46,7 +48,7 @@
 </ul>
 <!-- You also need to add some content to highlight, but that is covered elsewhere. -->
 <div class="example-cont">
-  <span class="span">مثال</span>
+  <span class="span"></span>
 <pre class="brush: py" dir="ltr">
   # Python program to check if the input number is prime or not
 
@@ -73,6 +75,10 @@
 </pre>
 </div>
 <div class="warning">
+  <div class="icon">
+
+  </div>
+  <div class="">
   <span>إنتبة !</span>
   هذا تحذير
   هذا تحذير
@@ -80,9 +86,13 @@
   هذا تحذير
   هذا تحذير
   هذا تحذير
-
+  </div>
 </div>
 <div class="note">
+  <div class="icon">
+
+  </div>
+  <div class="">
   <span>ملاحظة !</span>
   هذا تحذير
   هذا تحذير
@@ -90,8 +100,9 @@
   هذا تحذير
   هذا تحذير
   هذا تحذير
-
+  </div>
 </div>
+
 
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
