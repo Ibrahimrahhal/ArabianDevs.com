@@ -1,7 +1,8 @@
-<header>
 <div class="logo">
 
 </div>
+<div class="header">
+
 <nav>
   <div class="items">
     <a class="item item-home">
@@ -52,4 +53,4 @@
     </a>
   </div>
 </div>
-</header>
+</div>

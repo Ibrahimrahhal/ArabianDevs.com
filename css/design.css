@@ -1,21 +1,27 @@
 
 .main-title{
-text-align: right;
-padding-right: 15px;
+text-align: center;
 font-family: Cairo;
 font-weight: 400;
+
 
 }
 .sec-title{
   text-align: right;
-  padding-right: 30px;
   font-family: Cairo;
   opacity: 0.6;
   /* font-weight: 200; */
-
+  padding-right: 8px;
+  font-size: 1.2rem;
+margin: 5px 0 ;
+}
+.sec-title span{
+  border: 3px solid rgba(0, 0, 0, 0.6);
+padding: 5px 30px;
+border-radius: 5px;
 }
 .text{
-    padding: 30px;
+    padding: 10px 30px;
     text-align: right;
     font-family: Tajawal;
     font-size: 1.3rem;
@@ -55,8 +61,8 @@ position: relative;
 }
 .example-cont .span{
 background-image: url("../assets/example.svg");
-height: 60px;
-width: 60px;
+height:30px;
+width: 30px;
 background-position: center;
 padding: 15px 5px;
 padding-left: 25px;
@@ -64,9 +70,11 @@ display: block;
 position: absolute;
 top: 0;
 right: 0;
+opacity: 0.7;
 z-index: 999;
-background-color: #ffffff;
+/* background-color: #ffffff; */
 border-radius: 0 0 0 5px;
+background-size: contain;
 
 }
 .warning,.note{
