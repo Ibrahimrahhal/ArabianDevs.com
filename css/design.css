@@ -108,3 +108,43 @@ background-image: url("../assets/note.svg");
 margin: 0 5px;
 display: block;
 }
+.output{
+  width: 90%;
+  margin-right: 30px;
+
+}
+.output-text{
+  width: 80%;
+  background-color: #e6e6e6;
+  height: 0px;
+  text-align: left;
+  margin-bottom: 7px;
+  font-family: Cairo;
+  font-weight: 400;
+  overflow: hidden;
+
+  transition: height 0.4s;
+}
+.output-text-active{
+  border-top: solid 4px #79c79c;
+  padding: 10px 20px;
+
+  height: 150px
+}
+.output-text div{
+
+}
+.output-btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #79c79c;
+  color: #ffffff;
+  font-family: Cairo;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
