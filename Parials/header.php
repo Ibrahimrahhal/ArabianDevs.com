@@ -22,9 +22,34 @@
       ويب
     </a>
   </div>
-  <div class="">
-حكي فاضي
-
+  <div class="slogan">
+قيمة كل امرئ ما يحسن
   </div>
+  <a class="item item-home mobile-home">
+    <div class="home">
+
+    </div>
+  </a>
+  <div class="container mobile" >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
 </nav>
+<div class="mobile-menu">
+  <div class="items-mobile">
+    <a class="item-mobile">
+      بايثون
+    </a>
+    <a class="item-mobile">
+      جافا
+    </a>
+    <a class="item-mobile">
+      واجهات ويب
+    </a>
+    <a class="item-mobile">
+      ويب
+    </a>
+  </div>
+</div>
 </header>
