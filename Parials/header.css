@@ -1,9 +1,9 @@
 
 .logo{
   height: 120px;
-  background-image: url("../assets/logo_box_g.svg");
+  background-image: url("../assets/box_green_bg.svg");
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   background-size: contain;
   background-color: #79c79c;
   border-radius: 5px 5px 0 0;
@@ -67,8 +67,9 @@ background-color: #ffffff;
 }
 
 .slogan{
-
-  padding: 0 30px;
+border-radius: 2px 80px 2px 0px;
+  padding: 0 20px;
+  padding-right: 30px;
   height: 100%;
   background-color: #ffffff;
   color: #79c79c;
@@ -131,7 +132,7 @@ align-items:center;
 
 }
 .nobr{
-  border-radius: 5px 5px 0 0;
+  border-radius: 0;
 }
 .item-mobile{
   display:flex;
@@ -177,6 +178,6 @@ align-items:center;
   .mobile-menu-active{
 height: 142px;
 border: solid 1px #79c79c;
-border-top: solid 1px #ffffff;
+border-top: solid 3px #ffffff;
   }
 }

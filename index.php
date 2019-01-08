@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/design.css">
     <link rel="stylesheet" href="Parials/header.css">
 
-<link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar" rel="stylesheet">
   </head>
   <body>
     <!-- Include required JS files -->
@@ -24,7 +24,9 @@
 <meta name = "viewport" content = "initial-scale = 1.0">
 <?php require "./Parials/header.php"; ?>
 <h1 class="main-title">
+  <span>
   هذا هوا العنوان الرئيسي
+  </span>
 </h1>
 <h2 class="sec-title">
 

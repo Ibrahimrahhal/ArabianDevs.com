@@ -2,7 +2,21 @@
 .main-title{
 text-align: center;
 font-family: Cairo;
-font-weight: 400;
+
+
+
+}
+h1.main-title {
+  color: #666666;
+    margin:40px 0;
+}
+.main-title span{
+  padding: 12px 60px;
+  border:0 ;
+  /* border-radius: 50%; */
+  background-color: #ffefef;
+  border-top: solid 4px #79c79c;
+  border-bottom: 0;
 
 
 }
@@ -22,7 +36,7 @@ border-radius: 5px 5px 5px 25px;
 }
 .text{
     border-right: 6px solid rgba(0, 0, 0, 0.4);
-    background-color: #efefef;
+    background-color: #ffefef;
     margin: 25px 30px;
     padding: 12px 10px;
     text-align: right;
