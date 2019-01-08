@@ -21,7 +21,7 @@
 <!-- Include *at least* the core style and default theme -->
 <link href="css/shCore.css" rel="stylesheet" type="text/css" />
 <link href="css/shThemeRDark.css" rel="stylesheet" type="text/css" />
-
+<meta name = "viewport" content = "initial-scale = 1.0">
 <?php require "./Parials/header.php"; ?>
 <h1 class="main-title">
   هذا هوا العنوان الرئيسي
