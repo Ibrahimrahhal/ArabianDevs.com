@@ -23,6 +23,25 @@
 <link href="css/shThemeRDark.css" rel="stylesheet" type="text/css" />
 <meta name = "viewport" content = "initial-scale = 1.0">
 <?php require "./Parials/header.php"; ?>
+
+<div class="all">
+  <div class="side-menu">
+    <div class="side-menu-title">
+      قائمة المحتويات
+    </div>
+    <div class="side-menu-item">
+      محتوى
+    </div>
+    <div class="side-menu-item">
+      محتوى
+    </div>
+    <div class="side-menu-item">
+      محتوى
+    </div>
+  </div>
+  <div class="tut-content">
+
+
 <h1 class="main-title">
   <span>
   هذا هوا العنوان الرئيسي
@@ -124,8 +143,8 @@ To https://github.com/Ibrahimrahhal/ArabianDevs.com.git
   هذا تحذير
   </div>
 </div>
-
-
+</div>
+</div>
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
      SyntaxHighlighter.all()

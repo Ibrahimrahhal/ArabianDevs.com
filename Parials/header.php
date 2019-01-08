@@ -5,6 +5,11 @@
 
 <nav>
   <div class="items">
+    <a class="item item-home item-menu">
+      <div class="side-menu-icon">
+
+      </div>
+    </a>
     <a class="item item-home">
       <div class="home">
 

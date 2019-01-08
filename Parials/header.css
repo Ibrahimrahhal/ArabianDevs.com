@@ -65,7 +65,26 @@ background-color: #ffffff;
   width: 100%;
 
 }
+.side-menu-icon{
+  background-image: url("../assets/sort_down_w.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: contain;
+  height: 50%;
+  width: 100%;
 
+}
+.side-menu-icon:hover{
+  background-image: url("../assets/sort_down_g.svg");
+
+}
+.item-menu-active .side-menu-icon{
+  background-image: url("../assets/sort_down_g.svg");
+
+}
+.item-menu-active{
+  background-color: #ffffff;
+}
 .slogan{
 border-radius: 2px 80px 2px 0px;
   padding: 0 20px;
