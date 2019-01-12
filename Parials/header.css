@@ -1,12 +1,13 @@
 
 .logo{
+
   height: 120px;
   background-image: url("../assets/box_green_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-color: #79c79c;
-  border-radius: 5px 5px 0 0;
+
 }
 
 nav {
@@ -24,6 +25,7 @@ border-radius: 0 0 5px 5px;
   position: sticky;
   top: 0;
   z-index: 9999;
+  /* padding-top: 5px; */
 }
 
 .items{
