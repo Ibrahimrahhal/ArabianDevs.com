@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>design test</title>
     <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/design_md.css">
+
     <link rel="stylesheet" href="Parials/header.css">
 
 <link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar" rel="stylesheet">
@@ -105,8 +107,8 @@
      print(num,"is not a prime number")
 </pre>
 </div>
-<div class="output">
-  <div class="output-text">
+<div class="output ">
+  <div class="output-text output-text-not-active">
 
 C:\xampp\htdocs\arabiandevs>git push
 Enumerating objects: 19, done.
