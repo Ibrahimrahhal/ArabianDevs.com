@@ -32,7 +32,6 @@
       <div class="side-menu-title-icon">
 
       </div>
-      قائمة المحتويات
     </div>
     <div class="side-menu-items">
 
