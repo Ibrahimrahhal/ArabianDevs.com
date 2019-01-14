@@ -121,8 +121,8 @@ background-repeat: no-repeat;
 background-position: center;
 }
 .note{
-  background-color: rgba(66, 134, 244,0.8);
-  border-right: 8px solid rgba(66, 134, 244,1);
+  background-color: rgba(121,199,156,0.8);
+  border-right: 8px solid rgba(121,199,156,1);
 
 }
 .note .icon{
@@ -185,7 +185,7 @@ transition: all 0.3s;
   left:-100%;
   top: 0px;
   height: calc(100vh);
-  overflow-y: hidden;
+  overflow-y: auto;
   overflow-x: hidden;
   width: 350px;
   background-color: rgba(18,18,18,0.9);

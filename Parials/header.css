@@ -175,6 +175,10 @@ align-items:center;
   background-color: #ffffff;
   font-family: Cairo;
 }
+.mobile-icons{
+  display: none;
+}
+
 @media screen and (max-width:804px) {
   .slogan{
     display: none;
@@ -201,4 +205,21 @@ height: 142px;
 border: solid 1px #79c79c;
 border-top: solid 3px #ffffff;
   }
+  .mobile-icons{
+    height:100%; display:flex;
+  }
+  .item:hover {
+  color: #ffffff;
+  background-color: #79c79c;
+  }
+  .item-home:hover .home {
+    background-image: url("../assets/home.svg");
+
+
+  }
+  .side-menu-icon:hover{
+    background-image: url("../assets/sort_down_w.svg");
+
+  }
+
 }

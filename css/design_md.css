@@ -63,5 +63,33 @@
     font-size: 1rem;
     transition: all 0.3s;
   }
+  .side-menu{
+
+    height: calc(100vh);
+    width: 200px;
+
+  }
+  .side-menu-item{
+
+    font-size: 0.9rem;
+  }
+  .side-menu-items{
+  height: calc(100% - 100px);
+  }
+
+  .side-menu-title{
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+
+  }
+
+  .side-menu-title-icon{
+    width: 40px;
+    height: 40px;
+
+  }
 
 }

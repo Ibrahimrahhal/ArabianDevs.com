@@ -31,11 +31,18 @@
   <div class="slogan">
 قيمة كل امرئ ما يحسن
   </div>
-  <a class="item item-home mobile-home">
-    <div class="home">
+  <div class="mobile-icons" >
+    <a class="item item-home item-menu">
+      <div class="side-menu-icon">
 
-    </div>
-  </a>
+      </div>
+    </a>
+    <a class="item item-home mobile-home">
+      <div class="home">
+
+      </div>
+    </a>
+  </div>
   <div class="container-menu mobile" >
   <div class="bar1"></div>
   <div class="bar2"></div>
