@@ -18,22 +18,35 @@
   .text{
       border-right: 6px solid rgba(0, 0, 0, 0.4);
       background-color: #ffefef;
-      margin: 25px 30px;
+      margin: 25px 15px;
       padding: 12px 10px;
       text-align: right;
       font-family: Cairo;
       font-size: 0.9rem;
 
   }
-  .list li {
-    font-size: 1rem;
+  .seperate{
+
+  margin: 0 auto;
   }
 
+  .list li {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .example-cont{
+  width: 95%;
+  margin: 0 auto;
+
+
+  }
 
   .warning,.note{
-  width: 80%;
-  font-size: 0.9rem;
 
+  width: 90%;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  margin: 15px auto;
   }
 
 
