@@ -6,8 +6,6 @@ $(".output-btn").click(()=>{
 
 setTimeout(()=>{
   $(".output-btn").css("opacity","0");
-
-  $(".output-btn").css("height","0");
   setTimeout(()=>{
     $(".output-btn").css("display","none");
   },300);

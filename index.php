@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>design test</title>
     <link rel="stylesheet" href="css/design.css">
+    <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="css/shThemeRDark.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/design_md.css">
 
     <link rel="stylesheet" href="Parials/header.css">
@@ -21,8 +23,7 @@
 <script type="text/javascript" src="js/shBrushPython.js"></script>
 
 <!-- Include *at least* the core style and default theme -->
-<link href="css/shCore.css" rel="stylesheet" type="text/css" />
-<link href="css/shThemeRDark.css" rel="stylesheet" type="text/css" />
+
 <meta name = "viewport" content = "initial-scale = 1.0">
 <?php require "./Parials/header.php"; ?>
 
