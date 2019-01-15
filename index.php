@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/design_md.css">
 
     <link rel="stylesheet" href="Parials/header.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
 
 <link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar" rel="stylesheet">
   </head>

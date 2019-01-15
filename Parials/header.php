@@ -6,14 +6,11 @@
 <nav>
   <div class="items">
     <a class="item item-home item-menu">
-      <div class="side-menu-icon">
+      <i class="fa fa-angle-double-right"></i>
 
-      </div>
     </a>
     <a class="item item-home">
-      <div class="home">
-
-      </div>
+    <i class="fa fa-home" ></i>
     </a>
     <a class="item">
       بايثون
@@ -33,14 +30,10 @@
   </div>
   <div class="mobile-icons" >
     <a class="item item-home item-menu">
-      <div class="side-menu-icon">
-
-      </div>
+        <i class="fa fa-angle-double-right"></i>
     </a>
     <a class="item item-home mobile-home">
-      <div class="home">
-
-      </div>
+    <i class="fa fa-home" ></i>
     </a>
   </div>
   <div class="container-menu mobile" >
