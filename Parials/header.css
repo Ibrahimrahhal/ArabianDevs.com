@@ -52,6 +52,7 @@ background-color: #ffffff;
 .item-home {
   width: 55px;
   font-size:2.4rem;
+  transition: all 0.3s;
 }
 .item-home:hover .home {
   /* background-image: url("../assets/home.hover.svg"); */
@@ -83,11 +84,7 @@ background-color: #ffffff;
 
 
 }
-.item-menu-active{
-  background-color: #ffffff;
-  color: #79c79c;
 
-}
 
 /* i {
   transition: all 0.3s;
@@ -186,6 +183,13 @@ align-items:center;
 .mobile-icons{
   display: none;
 }
+.item-home:hover  {
+  background-color: transparent;
+  color: #ffffff;
+  transform: scale(1.2);
+
+
+}
 
 @media screen and (max-width:804px) {
   .slogan{
@@ -218,16 +222,8 @@ border-top: solid 3px #ffffff;
   }
   .item:hover {
   color: #ffffff;
-  background-color: #79c79c;
+  background-color: transparent;
   }
-  .item-home:hover .home {
-    background-image: url("../assets/home.svg");
 
-
-  }
-  .side-menu-icon:hover{
-    background-image: url("../assets/sort_down_w.svg");
-
-  }
 
 }

@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="css/design_md.css">
 
     <link rel="stylesheet" href="Parials/header.css">
+    <link rel="stylesheet" href="css/table.css">
+
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
 
 <link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=0.85">
+
   </head>
   <body>
     <!-- Include required JS files -->
@@ -26,7 +30,6 @@
 
 <!-- Include *at least* the core style and default theme -->
 
-<meta name = "viewport" content = "initial-scale = 1.0">
 <?php require "./Parials/header.php"; ?>
 
 <div class="all">
@@ -157,6 +160,29 @@ To https://github.com/Ibrahimrahhal/ArabianDevs.com.git
 </div>
 </div>
 </div>
+
+<table>
+  <tr >
+    <th>head</th>
+    <th class="hidden_md">head</th>
+    <th>head</th>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td class="hidden_md">body</td>
+    <td>body</td>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td class="hidden_md">body</td>
+    <td>body</td>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td class="hidden_md">body</td>
+    <td>body</td>
+  </tr>
+</table>
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
      SyntaxHighlighter.all()

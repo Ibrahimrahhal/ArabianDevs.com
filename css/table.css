@@ -1,0 +1,36 @@
+table {
+  font-family: Cairo;
+  border-collapse: collapse;
+  width: 80%;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+table td,table th {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #79c79c;
+  color: white;
+}
+
+@media screen and (max-width:768px) {
+  table {
+
+    width: 90%;
+    margin: 0 auto;
+
+  }
+table tr .hidden_md {
+  display: none;
+}
+}
