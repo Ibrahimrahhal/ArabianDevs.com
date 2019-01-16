@@ -10,12 +10,13 @@
 
     <link rel="stylesheet" href="Parials/header.css">
     <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/syntax.css">
 
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
 
-<link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=0.85">
+<link href="https://fonts.googleapis.com/css?family=Cairo:200,400|Tajawal|Lalezar|Oswald" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
   <body>
@@ -135,7 +136,7 @@ To https://github.com/Ibrahimrahhal/ArabianDevs.com.git
 
   </div>
   <div class="">
-  <span>إنتبة !</span>
+  <span>إنتبة</span>
   هذا تحذير
   هذا تحذير
 
@@ -149,7 +150,7 @@ To https://github.com/Ibrahimrahhal/ArabianDevs.com.git
 
   </div>
   <div class="">
-  <span>ملاحظة !</span>
+  <span>ملاحظة</span>
   هذا تحذير
   هذا تحذير
 
@@ -183,6 +184,8 @@ To https://github.com/Ibrahimrahhal/ArabianDevs.com.git
     <td>body</td>
   </tr>
 </table>
+<br>
+<div class="syntax">Var_Name =Some_Value </div>
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
      SyntaxHighlighter.all()

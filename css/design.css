@@ -129,7 +129,7 @@ background-position: center;
 background-image: url("../assets/note.svg");
 }
 .warning div span,.note div span {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.2rem;
 margin: 0 5px;
 display: block;
