@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/syntax.css">
+    <link rel="stylesheet" href="css/hover_menu.css">
 
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 

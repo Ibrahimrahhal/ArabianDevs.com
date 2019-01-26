@@ -1,8 +1,22 @@
-<ul class="list">
-  <li>الاول</li>
-  <li>الثاني</li>
-  <li>الثالث</li>
-  <li>الرابع</li>
-  <li>الخامس</li>
 
-</ul>
+
+<?php
+public function list($value)
+{
+  $str = "";
+  foreach ($value as $item) {
+    $str.=
+     "<li>
+    {$item}
+    </li>";
+  }
+  echo ("<ul class=\"list\">" . $str .  "  </ul>");
+return;
+
+
+
+
+}
+
+
+ ?>

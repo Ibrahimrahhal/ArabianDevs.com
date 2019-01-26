@@ -1,5 +1,11 @@
-<h1 class="main-title">
+<?php
+public function mainTitle($value)
+{
+echo "<h1 class=\"main-title\">
   <span>
-  هذا هوا العنوان الرئيسي
+  {$value}
   </span>
-</h1>
+</h1>";
+return;
+}
+ ?>
