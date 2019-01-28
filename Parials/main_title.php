@@ -1,5 +1,5 @@
 <?php
-public function mainTitle($value)
+ return function($value)
 {
 echo "<h1 class=\"main-title\">
   <span>

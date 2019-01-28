@@ -1,3 +1,13 @@
-<div class="seperate">
+<?php
+ return function ()
+{
+echo "<div class=\"seperate\">
 
 </div>
+";
+return;
+
+}
+
+
+ ?>

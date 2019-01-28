@@ -1,5 +1,5 @@
 <?php
-public function header()
+ return function ()
 {
   echo
   "<div class=\"logo\">

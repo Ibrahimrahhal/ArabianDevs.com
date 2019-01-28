@@ -1,5 +1,5 @@
 <?php
-public function example($script)
+ return function ($script)
 {
 
 echo

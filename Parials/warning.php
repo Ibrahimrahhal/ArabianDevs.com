@@ -1,14 +1,20 @@
-<div class="warning">
-  <div class="icon">
+<?php
+ return function ($value)
+{
+echo "<div class=\"warning\">
+  <div class=\"icon\">
 
   </div>
-  <div class="">
+  <div class=\"\">
   <span>إنتبة</span>
-  هذا تحذير
-  هذا تحذير
-
-  هذا تحذير
-  هذا تحذير
-  هذا تحذير
+{$value}
   </div>
 </div>
+";
+
+
+}
+
+
+
+ ?>

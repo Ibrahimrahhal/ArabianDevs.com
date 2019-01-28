@@ -1,1 +1,11 @@
-<div class="syntax">Var_Name =Some_Value </div>
+<?php
+ return function ($value)
+{
+echo "<div class=\"syntax\">{$value} </div>";
+return;
+}
+
+
+
+
+ ?>

@@ -1,7 +1,10 @@
 
 
 <?php
-public function list($value)
+ return function ($value='')
+ {
+   // code...
+ }($value)
 {
   $str = "";
   foreach ($value as $item) {

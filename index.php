@@ -26,9 +26,7 @@
 
 
 <?php
-require "./Parials/header.php";
-require "./Parials/all.php";
-
+(require "./Parials/header.php")();
 
 ?>
 

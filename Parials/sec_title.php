@@ -1,5 +1,19 @@
-<h2 class="sec-title">
+<?php
+ return function ($value)
+{
 
-  <span>هذا عنوان فرعي</span>
+echo "<h2 class=\"sec-title\">
+
+  <span>{$value}</span>
 
 </h2>
+";
+return;
+
+
+
+}
+
+
+
+ ?>
